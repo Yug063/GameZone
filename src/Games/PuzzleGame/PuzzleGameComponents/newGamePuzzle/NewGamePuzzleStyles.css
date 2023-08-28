@@ -1,0 +1,18 @@
+.button-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.Puzzlebtn {
+  border: 0 transparent;
+  background-color: var(--correct);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  font-family: "Pacifico", cursive;
+}
+.Puzzlebtn:hover {
+  background-color: var(--tile);
+}

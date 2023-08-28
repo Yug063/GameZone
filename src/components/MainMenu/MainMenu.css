@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,900;1,100;1,200;1,300;1,400;1,900&family=Prosto+One&family=Rubik:wght@400;500;600;700&display=swap");
+.heading {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 169px;
+  background: #5a189a;
+  /* margin: 0 auto; */
+  /*Game  */
+  color: #fff;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  font-family: "Prosto One", cursive;
+}
+span {
+  /* Zone */
+  color: #000;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  font-family: "Prosto One", cursive;
+}
+.content{
+    height: calc(100vh - 238px );
+    background: rgba(157, 78, 221, 0.80);
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    justify-items: center;
+    gap: 10px;
+
+}
+footer {
+  height: 69px;
+  background: #5a189a;
+  margin: 0 auto;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: "Prosto One", cursive;
+  font-weight: 300;
+}

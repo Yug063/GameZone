@@ -1,0 +1,25 @@
+.box {
+  background-color: #43115B;
+  border: none;
+  border-radius: 10%;
+  text-align: center;
+  box-shadow: 0px 0px 8px #888;
+  width: 5rem;
+  height: 5rem;
+  font-size: 5rem;
+  font-family: "Fredoka", sans-serif;
+  font-weight: bold;
+  line-height: 5rem;
+  margin: 0.5rem;
+}
+.x {
+  color: var(--g-11-color, #48D2FE);
+}
+/* rgb(255, 70, 37) */
+.o {
+    color: var(--g-23-color, #E2BE00);
+    
+}
+.box:hover{
+    box-shadow: 0px 0px 15px #888;
+}

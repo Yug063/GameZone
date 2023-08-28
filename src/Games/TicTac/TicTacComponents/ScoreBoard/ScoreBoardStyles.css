@@ -1,0 +1,35 @@
+.scoreboard {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 20rem;
+  font-size: 1.5rem;
+  background-color: #43115b;
+  margin: 3rem auto;
+  box-shadow: 0px 0px 8px #888;
+  border-radius: 0.5rem;
+  font-weight: bold;
+}
+.score {
+  width: 100%;
+  text-align: center;
+  padding: 1rem 0;
+  font-size: 24px;
+  font-family: "Poppins", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+}
+.x-score {
+  color: var(--g-11-color, #48d2fe);
+  border-bottom: 5px solid var(--g-11-color, #48d2fe);
+  border-radius: 0.5rem 0 0 0.5rem;
+}
+.o-score {
+  color: var(--g-23-color, #e2be00);
+  border-bottom: 5px solid var(--g-23-color, #e2be00);
+  border-radius: 0 0.5rem 0.5rem 0;
+}
+.inactive {
+  border-bottom: 5px solid transparent;
+}
+

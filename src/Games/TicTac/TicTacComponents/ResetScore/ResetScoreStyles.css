@@ -1,0 +1,15 @@
+.resetScore-btn {
+  border: none;
+  border-radius: 0.5rem;
+  background-color: #bcdbf9;
+  color: white;
+  font-size: 2rem;
+  padding: 0.5rem 1rem;
+  margin: 1rem auto;
+  display: block;
+  color: #000000;
+  font-weight: bold;
+  font-family: "Fredoka", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+}

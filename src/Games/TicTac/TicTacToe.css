@@ -1,0 +1,22 @@
+.tic{
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  background: #5a1e76;
+}
+/* #CEA2AC */
+.TicTacToe {
+  height: 100vh; /* take complete height at any devices */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.outerBox {
+  display: flex;
+  width: 433px;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 25px;
+  background: #2b0040;
+  justify-content: center;
+}

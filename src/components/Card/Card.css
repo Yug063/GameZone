@@ -1,0 +1,109 @@
+.Maincard {
+  margin-top: 30px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Maincard img {
+  object-fit: cover;
+  display: block;
+}
+.layer {
+  background: transparent;
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: 0.5s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.layer:hover {
+  background: #59189abd;
+  cursor: pointer;
+}
+.layer h3 {
+  width: 100%;
+  font-weight: 500;
+  color: #fff;
+  font-size: 26px;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%);
+  position: absolute;
+  transition: 0.5s;
+  text-align: center;
+}
+.layer button {
+  width: fit-content;
+  font-weight: 500;
+  color: black;
+  font-size: 26px;
+  bottom: -50%;
+  left: 50%;
+  transform: translate(-50%);
+  position: absolute;
+  transition: 0.5s;
+  text-align: center;
+}
+.layer:hover button {
+  bottom: 40%;
+  opacity: 1;
+}
+.layer:hover h3 {
+  bottom: 65%;
+  opacity: 1;
+}
+.button-8 {
+  background-color: rgba(157, 78, 221, 0.8);
+  border-radius: 3px;
+  border: 1px solid rgba(157, 78, 221, 0.8);
+  box-shadow: rgba(255, 255, 255, 0.7) 0 1px 0 0 inset;
+  box-sizing: border-box;
+  color: #59189abd;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.15385;
+  margin: 0;
+  outline: none;
+  padding: 8px 0.8em;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+
+.button-8:hover,
+.button-8:focus {
+  background-color: rgb(157, 78, 221);
+  color: white;
+}
+.title:hover
+{
+  color:black;
+  font-size: 28px;
+  transition: all ease-in-out 0.1s;
+}
+.button-8:focus {
+  box-shadow: 0 0 0 4px rgba(157, 78, 221, 0.363);
+}
+
+.button-8:active {
+  background-color: rgba(157, 78, 221, 0.8);
+  box-shadow: none;
+  color: rgb(157, 78, 221);
+}
